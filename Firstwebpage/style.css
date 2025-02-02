@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+button {
+  display: inline-block; /* 버튼을 가로로 배치 */
+  width: 150px; /* 버튼 너비를 일정하게 설정 */
+  padding: 10px; /* 상하 패딩 */
+  margin: 10px; /* 버튼 간의 간격 */
+  background-color: #87CEEB; /* 기본 버튼 색: 하늘색 */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* 글자 크기 */
+}
+
+button:hover {
+  background-color: #00BFFF; /* 버튼 호버 색상 */
+}
+
+/* "이름 생성하기" 버튼 스타일 */
+#generateName {
+  background-color: #FF4C4C; /* 빨간색 */
+  color: white;
+  font-weight: bold;
+  width: 200px; /* 좀 더 강조되도록 크기 키움 */
+  margin: 20px auto; /* 중앙 정렬 */
+  display: block; /* 중앙 정렬을 위해 블록 요소로 설정 */
+}
+
+#generateName:hover {
+  background-color: #CC0000; /* 더 진한 빨간색 */
+}
+#backButton {
+  background-color: #f44336; /* 빨간색 */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 20px auto; /* 중앙 정렬 & 위쪽 여백 */
+  width: 150px;
+}
+
+#backButton:hover {
+  background-color: #d32f2f; /* 버튼 호버 시 더 어두운 빨간색 */
+}
+
