@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애완동물 이름짓기</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>애완동물 작명소</h1>
+
+        <div id="petTypeSection">
+            <h2>애완동물 종류 선택:</h2>
+            <button class="petTypeButton" data-type="dog">개</button>
+            <button class="petTypeButton" data-type="cat">고양이</button>
+            <button class="petTypeButton" data-type="turtle">거북이</button>
+        </div>
+
+        <div id="petColorSection" style="display:none;">
+            <h2>색상 선택:</h2>
+            <button class="petColorButton" data-color="green">초록색</button>
+            <button class="petColorButton" data-color="red">빨간색</button>
+            <button class="petColorButton" data-color="yellow">노란색</button>
+        </div>
+
+        <div id="favoriteFoodSection" style="display:none;">
+            <h2>좋아하는 음식 선택:</h2>
+            <button class="favoriteFoodButton" data-food="fruit">과일</button>
+            <button class="favoriteFoodButton" data-food="snack">간식</button>
+            <button class="favoriteFoodButton" data-food="vegetable">채소</button>
+        </div>
+
+        <button id="generateName" style="display:none;">이름 생성하기</button>
+        <p id="petName"></p>
+        <button id="backButton" style="display:none; margin-top: 20px;">뒤로가기</button>
+        <p id="petName"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
